@@ -1,2 +1,2 @@
-# myfixlenterna
-a simple class activity
+# moviegenerator
+a tool tha generates movies based on genre
