@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netflix Movie Generator</title>
+  <script defer src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+  <div class="p-6 max-w-3xl mx-auto">
+    <h1 class="text-3xl font-bold mb-4">🎬 Random Movie Generator</h1>
+
+    <!-- Genre Selection -->
+    <div class="flex items-center gap-4 mb-4">
+      <label for="genreSelect" class="text-lg">Choose a genre:</label>
+      <select id="genreSelect" class="text-black px-3 py-2 rounded w-full max-w-xs">
+        <option value="">-- Select Genre --</option>
+        <!-- Options will be populated dynamically -->
+      </select>
+      <button onclick="getMovieByGenre()" class="bg-red-600 px-4 py-2 rounded hover:bg-red-700">
+        Generate Movie
+      </button>
+    </div>
+
+    <!-- Movie Display -->
+    <div id="movie" class="mt-6"></div>
+  </div>
+</body>
+</html>
