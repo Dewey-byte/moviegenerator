@@ -1,2 +1,2 @@
 # moviegenerator
-a tool tha generates movies based on genre
+a tool that generates movies based on genre
